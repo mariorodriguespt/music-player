@@ -1,0 +1,13 @@
+/*****************************************************************************/
+/* SideMenu: Style */
+/*****************************************************************************/
+.sidebar-container{
+    background-color: rgb(234,234,234);
+    height: 800px;
+}
+
+.logo-container{
+    border: none;
+    height: 120px;
+    background-color: rgb(236,36,74);
+}

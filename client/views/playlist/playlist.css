@@ -1,0 +1,21 @@
+/*****************************************************************************/
+/* Playlist: Style */
+/*****************************************************************************/
+
+.playlist-container{
+    background-color: rgb(234,234,234);
+    height: 800px;
+}
+
+.playlist-header{
+    background-color: rgb(116, 197, 209);
+}
+
+.playlist-list{
+    height: 400px;
+}
+
+.playlist-app-promo{
+    height: 200px;
+    background-color: rgb(225, 225, 225);
+}

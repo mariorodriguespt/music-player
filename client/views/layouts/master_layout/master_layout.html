@@ -1,0 +1,16 @@
+<template name="MasterLayout">
+    <div class="container container-full">
+        <div class="row">
+            <div class="col-xs-2 ML-left-panel">
+                {{>SideMenu}}
+            </div>
+            <div class="col-xs-8">
+                {{> yield}}
+            </div>
+            <div class="col-xs-2 ML-right-panel">
+                {{>Playlist}}
+            </div>
+        </div>
+    </div>
+    {{> MusicPlayer}}
+</template>

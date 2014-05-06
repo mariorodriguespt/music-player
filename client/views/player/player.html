@@ -1,0 +1,25 @@
+<template name="MusicPlayer">
+    <nav class="navbar navbar-default navbar-fixed-bottom player-container">
+        <div class="">
+            <ul class="nav navbar navbar-left player-container-artist">
+                <img src="http://placehold.it/80x80" alt="" class="img-circle"/>
+                <span>Daft Punk</span>
+                <span>Get Lucky</span>
+            </ul>
+            <ul class="nav navbar navbar-nav player-container-controls">
+                <button class="player-container-controls-previous"></button>
+                <button class="player-container-controls-pause"></button>
+                <button class="player-container-controls-next"></button>
+                <span>2:34</span>
+                <input type="range" min="0" max="180"/>
+                <span>3:00</span>
+            </ul>
+            <ul class="nav navbar navbar-right player-container-volume">
+                <button type="button" class="btn btn-default btn-xs button-transparent">
+                    <img src="/assets/icons/audio.png" alt=""/>
+                </button>
+                <input type="range" min="0" max="100"/>
+            </ul>
+        </div>
+    </nav>
+</template>
